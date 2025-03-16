@@ -1,0 +1,44 @@
+*, *:before, *:after {
+    box-sizing: border-box;
+    min-height: 100%;;
+}
+
+
+body {
+    background-image: linear-gradient(330deg, #03A9F4 10%, #81D4FA 80%);
+    font-size: 10px;
+}
+
+.container{
+    text-align: center;
+    width: 100%;
+    margin: 250px auto;
+    padding: 0;
+}
+
+#title{
+    color: #fff;
+    font-weight: 500;
+    font-size: 30px;
+}
+
+#reciver{
+    height: 40px;
+}
+
+.buttons{
+    display: flex;
+    gap: 25px;
+    justify-content: center;
+    align-content: center;
+    text-align: center;
+    margin-top: 20PX;
+}
+
+.button__setting{
+
+    background-color: #4DD0E1;
+    width: 100px;
+    height: 40px;
+
+}
